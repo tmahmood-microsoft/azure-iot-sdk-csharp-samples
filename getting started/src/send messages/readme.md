@@ -2,15 +2,19 @@
 
 Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
 
+- Samples
+- Installation
+- Documentation
+- Next Steps
+
 # Samples
 
 ### Send messages to IoT Hub
+`send_messages.js` `send_messages.ts`
 
 Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
-
-| JavaScript sample | TypeScript sample |                |
-| :---------------- | :---------------- | :------------------ |
-| send_messages.js  | send_messages.ts  | [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript) |
+         
+[Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript) 
 
 ### Send messages to IoT Central
 
@@ -52,9 +56,9 @@ Send several messages in batch using HTTP
 | :---------------- | :---------------- | 
 | send_messages_in_batch_http.js  | send_messages_in_batch_http.ts | 
 
-# Running the samples
+# Installation
 
-## Run samples using GitHub codespaces
+## Using GitHub codespaces
 
 You can use Github Codespaces to be up and running quickly! Here are the steps to follow.
 

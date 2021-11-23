@@ -171,3 +171,7 @@ TypeScript
 cd dist
 node sample_sample_device.js
 ```
+# ➡️Next Steps
+
+- [How to guides](src/../../how%20to%20guides)
+- [Solutions](src/../../solutions)

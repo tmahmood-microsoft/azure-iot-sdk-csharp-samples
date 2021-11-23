@@ -2,6 +2,23 @@
 
 Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
 
+### Send messages
+
+Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
+
+
+
+### Send messages to IoT Central
+
+### Send messages via proxy 
+
+### Send messages with x509
+
+### Send messages with SAS token
+
+### Send messages in batch with HTTP
+
+
 | Sample                           | Description                                                                   | 
 | :-------------------------------- | :----------------------------------------------------------------------------- |
 | send messages                    | Send messages to IoT Hub using MQTT (default), AMQP, MQTTWS, AMQPWS, and HTTP |     

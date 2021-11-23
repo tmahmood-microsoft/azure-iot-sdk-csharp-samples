@@ -68,9 +68,6 @@ In order to run the device samples you will first need the following prerequisit
 **2) Create and open Codespace**
 
 - Select the Codespaces tab and the "New codespace" button
-
-  ![screen shot of create codespace](./media/github-codespace.png)
-
 - Once the Codespace is open, all required packages to run the samples will be setup for you
 
 **3) Set the IOTHUB_DEVICE_CONNECTING_STRING environment variable**

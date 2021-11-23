@@ -52,7 +52,7 @@ Send several messages in batch using HTTP
 | :---------------- | :---------------- | 
 | send_messages_in_batch_http.js  | send_messages_in_batch_http.ts | 
 
-## Running the samples
+# Running the samples
 
 ## Run samples using GitHub codespaces
 

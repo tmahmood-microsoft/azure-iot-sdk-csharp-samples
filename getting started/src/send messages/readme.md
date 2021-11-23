@@ -8,17 +8,21 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 
 Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
+| JavaScript sample | TypeScript sample | Other               |
+| :---------------- | :---------------- | :------------------ |
+| send_messages.js  | send_messages.ts  | [Azure Documentation](#) |
+
 ### Send messages to IoT Central
 
 Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
-### Send messages via proxy 
+### Send messages via proxy
 
 Send messages through a proxy
 
 ### Send messages with x509
 
-Send messages when using an X509 certificate 
+Send messages when using an X509 certificate
 
 ### Send messages with SAS token
 
@@ -26,6 +30,6 @@ Send messages with Shared Access Signature (SAS) token
 
 ### Send messages in batch with HTTP
 
-Send several messages in batch using HTTP 
+Send several messages in batch using HTTP
 
 ## Running the samples

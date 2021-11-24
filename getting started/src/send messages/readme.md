@@ -60,7 +60,7 @@ Send messages with Shared Access Signature (SAS) token
 Send several messages in batch using HTTP
 
 <a href="./send_messages_in_batch_http.js"><code>send_messages_in_batch_http.js</code></a> 
-<a href="./ssend_messages_in_batch_http.ts"><code>send_messages_in_batch_http.ts</code></a> 
+<a href="./send_messages_in_batch_http.ts"><code>send_messages_in_batch_http.ts</code></a> 
 
 # ⚙️ Installation
 

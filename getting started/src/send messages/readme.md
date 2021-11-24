@@ -7,7 +7,7 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 - [Documentation](#documentation)
 - Next Steps
 
-# Samples
+# 🌟 Samples
 
 ### Send messages to IoT Hub
 `send_messages.js` `send_messages.ts`
@@ -47,7 +47,7 @@ Send messages with Shared Access Signature (SAS) token
 
 Send several messages in batch using HTTP
 
-# Installation
+# ⚙️ Installation
 
 ## Using GitHub codespaces
 
@@ -166,7 +166,7 @@ TypeScript
 cd dist
 node sample_sample_device.js
 ```
-# ➡️Next Steps
+# ➡️ Next Steps
 
 - [How to guides](src/../../how%20to%20guides)
 - [Solutions](src/../../solutions)

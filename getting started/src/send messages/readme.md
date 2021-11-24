@@ -9,7 +9,7 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 
 # 🌟 Samples
 
-### Send messages to IoT Hub
+### 🟢 Send messages to IoT Hub
 Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
 `send_messages.js` `send_messages.ts`

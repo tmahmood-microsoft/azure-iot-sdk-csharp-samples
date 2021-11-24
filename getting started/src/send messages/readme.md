@@ -6,7 +6,7 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 - [Samples](#-samples)
 - [Installation](#-installation)
 - [Documentation](#-documentation)
-- [Next Steps](#next-steps)
+- [Next Steps](%EF%B8%8F-next-steps)
 
 # 🚀 Prerequisites
 

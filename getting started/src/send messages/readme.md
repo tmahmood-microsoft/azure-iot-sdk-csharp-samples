@@ -40,7 +40,7 @@ Send messages with Shared Access Signature (SAS) token
 
 `send_messages_with_sas.js` `send_messages_with_sas.ts`
 
-[Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction) |
+[Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction)
 
 ### 🔹 Send messages in batch with HTTP
 Send several messages in batch using HTTP

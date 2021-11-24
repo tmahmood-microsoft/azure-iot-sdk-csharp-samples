@@ -22,14 +22,16 @@ In order to run the device samples you will first need the following prerequisit
 ### [Send messages to IoT Hub](#)
 Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
-`[send_messages.js](#)` `send_messages.ts`
+<a href="./send_messages.js"><code>send_messages.js</code></a> 
+<a href="./send_messages.ts"><code>send_messages.ts</code></a>       
 
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript) 
 
 ### [Send messages to IoT Central](#)
 Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
-`send_messages_iot_central.js` `send_messages_iot_central.ts`
+<a href="./send_messages_iot_central.js"><code>send_messages_iot_central.js</code></a> 
+<a href="./send_messages_iot_central.ts"><code>send_messages_iot_central.ts</code></a> 
 
 [Create and connect a client application to your Azure IoT Central application](#)
 

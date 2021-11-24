@@ -19,7 +19,7 @@ In order to run the device samples you will first need the following prerequisit
 
 # 🌟 Samples
 
-### [Send messages to IoT Hub](#)
+### Send messages to IoT Hub
 Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
 <a href="./send_messages.js"><code>send_messages.js</code></a> 
@@ -27,7 +27,7 @@ Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (
 
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript) 
 
-### [Send messages to IoT Central](#)
+### Send messages to IoT Central
 Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
 
 <a href="./send_messages_iot_central.js"><code>send_messages_iot_central.js</code></a> 
@@ -35,29 +35,32 @@ Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQ
 
 [Create and connect a client application to your Azure IoT Central application](#)
 
-### [Send messages via proxy](#)
+### Send messages via proxy
 Send messages through a proxy 
 
-`send_messages_through_proxy.js`
+<a href="./send_messages_through_proxy.js"><code>send_messages_through_proxy.js</code></a> 
 
-### [Send messages with x509](#)
+### Send messages with x509
 Send messages when using an X509 certificate
 
-`send_messages_with_x509.js` `send_messages_with_x509.ts`
+<a href="./send_messages_with_x509.js"><code>send_messages_with_x509.js</code></a> 
+<a href="./send_messages_with_x509.ts"><code>send_messages_with_x509.ts</code></a> 
 
 [Understanding Public Key Cryptography and X.509 Public Key Infrastructure](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction) 
 
-### [Send messages with SAS token](#)
+### Send messages with SAS token
 Send messages with Shared Access Signature (SAS) token
 
-`send_messages_with_sas.js` `send_messages_with_sas.ts`
+<a href="./send_messages_with_sas.js"><code>send_messages_with_sas.js</code></a> 
+<a href="./send_messages_with_sas.ts"><code>send_messages_with_sas.ts</code></a> 
 
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction)
 
-### [Send messages in batch with HTTP](#)
+### Send messages in batch with HTTP
 Send several messages in batch using HTTP
 
-`send_messages_in_batch_http.js` `send_messages_in_batch_http.ts`
+<a href="./send_messages_in_batch_http.js"><code>send_messages_in_batch_http.js</code></a> 
+<a href="./ssend_messages_in_batch_http.ts"><code>send_messages_in_batch_http.ts</code></a> 
 
 # ⚙️ Installation
 

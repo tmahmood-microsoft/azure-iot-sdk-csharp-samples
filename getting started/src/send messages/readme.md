@@ -2,11 +2,11 @@
 
 Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
 
-- [Prerequisites](#prerequisites)
-- [Samples](#samples)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- Next Steps
+- [Prerequisites](#-prerequisites)
+- [Samples](#-samples)
+- [Installation](#-installation)
+- [Documentation](#-documentation)
+- [Next Steps](#next-steps)
 
 # 🚀 Prerequisites
 

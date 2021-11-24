@@ -63,14 +63,7 @@ Send several messages in batch using HTTP
 
 You can use Github Codespaces to be up and running quickly! Here are the steps to follow.
 
-**1) Make sure you have the prerequisites**
-
-In order to run the device samples you will first need the following prerequisites:
-
-- An Azure IoT Hub instance. [(Link if you don't.)][https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal]
-- A device identity for your device. [(Link if you don't.)][https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#register-a-new-device-in-the-iot-hub]
-
-**2) Create and open Codespace**
+**1) Create and open Codespace**
 
 - Select the Codespaces tab and the "New codespace" button
 - Once the Codespace is open, all required packages to run the samples will be setup for you
@@ -119,17 +112,8 @@ In order to run the device samples you will first need the following prerequisit
 
 You need to install proper dependencies as defined in the **package.json**. Run the following commands:
 
-_for JavaScript_
-
 ```
 cd device/samples/javascript
-npm install
-```
-
-_for TypeScript_
-
-```
-cd device/samples/typescript
 npm install
 ```
 
@@ -170,12 +154,6 @@ JavaScript
 node sample_sample_device.js
 ```
 
-TypeScript
-
-```bash
-cd dist
-node sample_sample_device.js
-```
 # 📖 Documentation
 
 Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.

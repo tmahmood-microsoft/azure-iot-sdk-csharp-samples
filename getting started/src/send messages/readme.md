@@ -2,10 +2,20 @@
 
 Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
 
+- [Prerequisites](#prerequisites)
 - [Samples](#samples)
 - [Installation](#installation)
 - [Documentation](#documentation)
 - Next Steps
+
+# 🚀 Prerequisites
+
+Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
+
+In order to run the device samples you will first need the following prerequisites:
+
+- An Azure IoT Hub instance. [(Link if you don't.)](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
+- A device identity for your device. [(Link if you don't.)](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#register-a-new-device-in-the-iot-hub)
 
 # 🌟 Samples
 

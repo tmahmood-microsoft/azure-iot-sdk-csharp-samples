@@ -38,5 +38,6 @@ Sed ultricies felis euismod diam porttitor pellentesque. Pellentesque facilisis 
 
 # ➡️Next Steps
 
+- [Send messages to IoT Hub](./src/send%20messages)
 - [How to guides](src/../../how%20to%20guides)
 - [Solutions](src/../../solutions)

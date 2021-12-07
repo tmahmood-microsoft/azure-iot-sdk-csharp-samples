@@ -1,6 +1,6 @@
 # Send messages
 
-Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cras commodo ligula nec justo lacinia fringilla. Morbi eget congue neque. Duis varius eleifend enim eu euismod. Pellentesque scelerisque convallis tortor. Fusce gravida est diam, ac sodales enim consectetur eu. Duis eu consequat massa.
+Sending telemetry messages is the first and most basic thing to do using the SDK. There are multiple examples below that will cover different prootocols and security mechanisms (SAS, x509). We suggest you start with the [send messages to IoT Hub](#send-messages-to-iot-hub) to ensure you successfull connection and message send using MQTT. Then you can work work your way through the different protocols and security options.
 
 - [Prerequisites](#-prerequisites)
 - [Samples](#-samples)

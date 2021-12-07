@@ -34,7 +34,8 @@ Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQ
 <a href="./send_messages_iot_central.js"><code>send_messages_iot_central.js</code></a> 
 <a href="./send_messages_iot_central.ts"><code>send_messages_iot_central.ts</code></a> 
 
-[Azure Documentation](#) | [Create and connect a client application to your Azure IoT Central application](#)
+- [Azure Documentation](#) 
+- [Create and connect a client application to your Azure IoT Central application](#)
 
 ### Send messages via proxy
 Send messages through a proxy 

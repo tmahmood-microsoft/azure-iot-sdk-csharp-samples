@@ -25,7 +25,8 @@ Send messages to IoT Hub using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (
 <a href="./send_messages.js"><code>send_messages.js</code></a> 
 <a href="./send_messages.ts"><code>send_messages.ts</code></a>       
 
-[Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript) | [Full step-by-step walkthrough](#)
+- [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-javascript)
+- [Full step-by-step walkthrough](#)
 
 ### Send messages to IoT Central
 Send messages to IoT Central using MQTT (default), AMQP, MQTTW (Web Socket), AMQPW (Web Socket), and HTTP
@@ -46,7 +47,7 @@ Send messages when using an X509 certificate
 <a href="./send_messages_with_x509.js"><code>send_messages_with_x509.js</code></a> 
 <a href="./send_messages_with_x509.ts"><code>send_messages_with_x509.ts</code></a> 
 
-[Understanding Public Key Cryptography and X.509 Public Key Infrastructure](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction) 
+- [Understanding Public Key Cryptography and X.509 Public Key Infrastructure](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction) 
 
 ### Send messages with SAS token
 Send messages with Shared Access Signature (SAS) token
@@ -54,7 +55,7 @@ Send messages with Shared Access Signature (SAS) token
 <a href="./send_messages_with_sas.js"><code>send_messages_with_sas.js</code></a> 
 <a href="./send_messages_with_sas.ts"><code>send_messages_with_sas.ts</code></a> 
 
-[Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction)
+- [Azure Documentation](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-x509-introduction)
 
 ### Send messages in batch with HTTP
 Send several messages in batch using HTTP

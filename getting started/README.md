@@ -1,6 +1,6 @@
 # Getting started samples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis felis aliquam eros venenatis ultrices a eget tortor. Donec tristique ante nec libero vestibulum volutpat. Mauris malesuada sodales mauris sed consequat. Donec at accumsan metus. Suspendisse et justo diam. Integer porttitor vitae nibh a aliquam. Curabitur eu elit libero. Phasellus a ultrices nibh, ut gravida nunc. Aliquam hendrerit eros id dolor mollis pulvinar. In iaculis, velit nec ultrices fermentum, erat odio placerat est, non pulvinar justo justo ut felis. Vestibulum ultrices ipsum ac erat aliquam consequat. Morbi sollicitudin gravida leo quis congue. Maecenas blandit ornare enim, et sagittis nisi pretium ac.
+These getting started samples are perfect for someone just getting into the [Azure IoT Device SDK for Node.js](https://github.com/Azure/azure-iot-sdk-node). The samples are targeted, simple, and you should be able to get them up and running in just a couple minutes. For more complicated samples and scenarios, see the [How to samples](#) and [solutions](#) sections.
 
 🌟 If you are just starting with Azure IoT device SDK's, we recommend you start with the basic [send messages to IoT Hub](src/send%20messages) example.
 

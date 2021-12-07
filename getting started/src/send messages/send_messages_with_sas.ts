@@ -16,14 +16,14 @@ const sas: string = process.env.IOTHUB_SAS || '';
 
 if (sas === '') {
   console.log('device SharedAccessSignature string not set');
-  process.exit(-1);
+  process.exit(0);
 }
 
 // fromSharedAccessSignature must specify a transport constructor, coming from any transport package.
 const client: Client = Client.fromSharedAccessSignature(sas, Protocol);
 
 let sendInterval: NodeJS.Timer;
-let connectCallback = function (err: Error): void {
+const connectCallback = function (err: any): void {
   if (err) {
     console.error('Could not connect: ' + err);
   } else {
@@ -42,24 +42,23 @@ let connectCallback = function (err: Error): void {
     // Create a message and send it to the IoT Hub every second
     if (!sendInterval) {
       sendInterval = setInterval(function (): void {
-        let windSpeed: number = 10 + (Math.random() * 4); // range: [10, 14]
-        let temperature: number = 20 + (Math.random() * 10); // range: [20, 30]
-        let humidity: number = 60 + (Math.random() * 20); // range: [60, 80]
-        let data: string = JSON.stringify({ deviceId: 'myFirstDevice', windSpeed: windSpeed, temperature: temperature, humidity: humidity });
-        let message: Message = new Message(data);
+        const windSpeed: number = 10 + (Math.random() * 4); // range: [10, 14]
+        const temperature: number = 20 + (Math.random() * 10); // range: [20, 30]
+        const humidity: number = 60 + (Math.random() * 20); // range: [60, 80]
+        const data: string = JSON.stringify({ deviceId: 'myFirstDevice', windSpeed: windSpeed, temperature: temperature, humidity: humidity });
+        const message: Message = new Message(data);
         message.properties.add('temperatureAlert', (temperature > 28) ? 'true' : 'false');
         console.log('Sending message: ' + message.getData());
         client.sendEvent(message, printResultFor('send'));
       }, 2000);
     }
 
-    client.on('error', function (err: Error): void {
-      console.error(err.message);
+    client.on('error', function (error: Error): void {
+      console.error(error.message);
     });
 
     client.on('disconnect', function (): void {
       clearInterval(sendInterval);
-      sendInterval = null;
       client.removeAllListeners();
       client.open(connectCallback);
     });
@@ -69,8 +68,8 @@ let connectCallback = function (err: Error): void {
 client.open(connectCallback);
 
 // Helper function to print results in the console
-function printResultFor(op: any): (err: Error, res: any) => void {
-  return function printResult(err: Error, res: any): void {
+function printResultFor(op: any): (err: any, res: any) => void {
+  return function printResult(err: any, res: any): void {
     if (err) console.log(op + ' error: ' + err.toString());
     if (res) console.log(op + ' status: ' + res.constructor.name);
   };

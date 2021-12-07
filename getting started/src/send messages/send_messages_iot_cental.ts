@@ -32,7 +32,7 @@ async function asyncMain(): Promise<void> {
 }
 
 function disconnectHandler(): void {
-  clearInterval(sendInterval); 
+  clearInterval(sendInterval);
 
   client.open().catch((err) => {
     console.error(err.message);

@@ -28,15 +28,15 @@ const client: Client = Client.fromConnectionString(
   Protocol
 );
 
-fs.stat(filePath, function (err: Error, fileStats: fs.Stats): void {
-  let fileStream = fs.createReadStream(filePath);
+fs.stat(filePath, function (err: any, fileStats: fs.Stats): void {
+  const fileStream = fs.createReadStream(filePath);
 
   if (err) {
     console.error('error with fs.stat: ' + err.message);
   }
 
-  client.uploadToBlob('testblob.txt', fileStream, fileStats.size).catch((err: Error) => {
-      console.log('error uploading file: ' + err.message);
+  client.uploadToBlob('testblob.txt', fileStream, fileStats.size).catch((error: Error) => {
+      console.log('error uploading file: ' + error.message);
     }).finally(() => {
       fileStream.destroy();
       process.exit();

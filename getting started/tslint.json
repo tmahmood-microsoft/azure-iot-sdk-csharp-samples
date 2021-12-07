@@ -6,7 +6,8 @@
     "jsRules": {},
     "rules": {
         "no-console": [true, "warning"],
-        "only-arrow-functions":  false
+        "only-arrow-functions": false,
+        "object-literal-shorthand": [true, {"property": "never"}]
     },
     "rulesDirectory": []
 }

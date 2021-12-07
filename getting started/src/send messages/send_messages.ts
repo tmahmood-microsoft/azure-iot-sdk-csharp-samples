@@ -32,7 +32,7 @@ async function asyncMain(): Promise<void> {
 }
 
 function disconnectHandler(): void {
-  clearInterval(sendInterval); 
+  clearInterval(sendInterval);
 
   client.open().catch((err) => {
     console.error(err.message);
@@ -71,18 +71,10 @@ function generateMessage(): Message {
   const windSpeed: number = 10 + Math.random() * 4; // range: [10, 14]
   const temperature: number = 20 + Math.random() * 10; // range: [20, 30]
   const humidity: number = 60 + Math.random() * 20; // range: [60, 80]
-  const data: string = JSON.stringify({
-    deviceId: 'myFirstDevice',
-    windSpeed: windSpeed,
-    temperature: temperature,
-    humidity: humidity,
-  });
+  const data: string = JSON.stringify({ deviceId: 'myFirstDevice', windSpeed: windSpeed, temperature: temperature, humidity: humidity });
   const message: Message = new Message(data);
 
-  message.properties.add(
-    'temperatureAlert',
-    temperature > 28 ? 'true' : 'false'
-  );
+  message.properties.add('temperatureAlert', temperature > 28 ? 'true' : 'false' );
 
   return message;
 }

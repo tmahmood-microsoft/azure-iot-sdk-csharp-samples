@@ -79,7 +79,7 @@ async function uploadToBlob(localFilePath: string, client: Client): Promise<void
 
     // Notify IoT Hub of upload to blob status (success)
     console.log('notifyBlobUploadStatus success');
-  } catch (err) {
+  } catch (err: any) {
     isSuccess = false;
     statusCode = err.code;
     statusDescription = err.message;

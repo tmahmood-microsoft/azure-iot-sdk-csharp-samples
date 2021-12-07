@@ -45,7 +45,7 @@ const client: Client = Client.fromConnectionString(
 );
 
 let sendInterval: NodeJS.Timer;
-let connectCallback = function (err: Error): void {
+const connectCallback = function (err: any): void {
   if (err) {
     console.error('Could not connect: ' + err.message);
   } else {
@@ -83,20 +83,19 @@ let connectCallback = function (err: Error): void {
       }, 2000);
     }
 
-    client.on('error', function (err: Error): void {
-      console.error(err.message);
+    client.on('error', function (error: Error): void {
+      console.error(error.message);
     });
 
     client.on('disconnect', function (): void {
       clearInterval(sendInterval);
-      sendInterval = null;
       client.removeAllListeners();
       client.open(connectCallback);
     });
   }
 };
 
-let options: { cert: string; key: string; passphrase: string } = {
+const options: { cert: string; key: string; passphrase: string } = {
   cert: fs.readFileSync(certFile, 'utf-8').toString(),
   key: fs.readFileSync(keyFile, 'utf-8').toString(),
   passphrase: passphrase,
@@ -107,8 +106,8 @@ client.setOptions(options);
 client.open(connectCallback);
 
 // Helper function to print results in the console
-function printResultFor(op: any): (err: Error, res: any) => void {
-  return function printResult(err: Error, res: any): void {
+function printResultFor(op: any): (err: any, res: any) => void {
+  return function printResult(err: any, res: any): void {
     if (err) console.log(op + ' error: ' + err.toString());
     if (res) console.log(op + ' status: ' + res.constructor.name);
   };

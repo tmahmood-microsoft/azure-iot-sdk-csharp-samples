@@ -24,4 +24,4 @@ Sed ultricies felis euismod diam porttitor pellentesque. Pellentesque facilisis 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis felis aliquam eros venenatis ultrices a eget tortor. Donec tristique ante nec libero vestibulum volutpat. Mauris malesuada sodales mauris sed consequat. Donec at accumsan metus. Suspendisse et justo diam. Integer porttitor vitae nibh a aliquam. Curabitur eu elit libero. Phasellus a ultrices nibh, ut gravida nunc.
 
-💬 [General feedback](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/11)
+📫 [General feedback](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/11)

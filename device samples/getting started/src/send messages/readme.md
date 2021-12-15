@@ -172,7 +172,7 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse dignissim dignissim justo, auctor lobortis erat dictum sed. Vestibulum faucibus turpis quis tortor sodales, non volutpat est condimentum. Nam non neque condimentum, semper nulla eget, efficitur quam. Morbi augue turpis, eleifend et eleifend et, aliquet sit amet nisl.
 
-🌟 [Feedback on this sample](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/1)
+📫 [Give us feedback on this sample](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/1)
 
 # ➡️ Next Steps
 

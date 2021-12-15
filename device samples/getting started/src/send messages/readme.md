@@ -168,6 +168,12 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 - [Quickstart: Send telemetry from a device to an IoT hub and monitor it with the Azure CLI](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-cli)
 - [Quickstart: Send telemetry from an IoT Plug and Play device to Azure IoT Hub](https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-send-telemetry-iot-hub?toc=%2Fazure%2Fiot-hub%2Ftoc.json&bc=%2Fazure%2Fiot-hub%2Fbreadcrumb%2Ftoc.json&pivots=programming-language-nodejs)
 
+# 💬 Give us Feedback
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse dignissim dignissim justo, auctor lobortis erat dictum sed. Vestibulum faucibus turpis quis tortor sodales, non volutpat est condimentum. Nam non neque condimentum, semper nulla eget, efficitur quam. Morbi augue turpis, eleifend et eleifend et, aliquet sit amet nisl.
+
+🌟 [Feedback on this sample](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/1)
+
 # ➡️ Next Steps
 
 - [How to guides](src/../../how%20to%20guides)

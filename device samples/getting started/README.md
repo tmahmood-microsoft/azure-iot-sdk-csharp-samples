@@ -36,6 +36,12 @@ Nulla id tempus tortor, ut viverra odio. Aliquam accumsan magna vel efficitur el
 
 Sed ultricies felis euismod diam porttitor pellentesque. Pellentesque facilisis ligula id commodo gravida. Etiam et dolor sit amet est rhoncus lobortis a eu enim. Proin lacinia dignissim nisi, non volutpat diam semper quis. Pellentesque quis elit elit. Praesent id convallis tortor. Ut metus lectus, aliquet id erat quis, posuere auctor dolor. 
 
+# 💬 Give us Feedback
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse dignissim dignissim justo, auctor lobortis erat dictum sed. Vestibulum faucibus turpis quis tortor sodales, non volutpat est condimentum. Nam non neque condimentum, semper nulla eget, efficitur quam. Morbi augue turpis, eleifend et eleifend et, aliquet sit amet nisl.
+
+📫 [Give us feedback on our samples](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/11)
+
 # ➡️Next Steps
 
 - [Send messages to IoT Hub](./src/send%20messages)

@@ -19,3 +19,9 @@ Nulla id tempus tortor, ut viverra odio. Aliquam accumsan magna vel efficitur el
 Sed ultricies felis euismod diam porttitor pellentesque. Pellentesque facilisis ligula id commodo gravida. Etiam et dolor sit amet est rhoncus lobortis a eu enim. Proin lacinia dignissim nisi, non volutpat diam semper quis. Pellentesque quis elit elit. Praesent id convallis tortor. Ut metus lectus, aliquet id erat quis, posuere auctor dolor. Nam consectetur nec est sit amet lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sit amet nisi congue, consequat neque vel, porttitor augue. Fusce nulla nisl, venenatis in dolor tincidunt, suscipit fringilla odio.
 
 [Click here for solutions](./solutions)
+
+# Give us your feedback
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis felis aliquam eros venenatis ultrices a eget tortor. Donec tristique ante nec libero vestibulum volutpat. Mauris malesuada sodales mauris sed consequat. Donec at accumsan metus. Suspendisse et justo diam. Integer porttitor vitae nibh a aliquam. Curabitur eu elit libero. Phasellus a ultrices nibh, ut gravida nunc.
+
+💬 [General feedback](https://github.com/danhellem/azure-iot-sdk-node-samples/discussions/11)

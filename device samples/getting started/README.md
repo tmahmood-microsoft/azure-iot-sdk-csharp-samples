@@ -12,7 +12,7 @@ Nunc malesuada volutpat fermentum. Donec in ante nec diam venenatis eleifend. Cr
 
 Morbi rutrum placerat commodo. Nulla nisi mauris, posuere eu dolor a, dignissim scelerisque lorem. Aenean laoreet sapien elit, ac aliquam enim posuere at. Mauris augue lacus, blandit a metus a, pulvinar varius orci. Phasellus ac erat felis. Integer eget justo id leo tincidunt facilisis non quis ante. 
 
-## [Recieve method invocation](src/receive%20method%20invocation)
+## [Receive method invocation](src/receive%20method%20invocation)
 
 Ut metus lectus, aliquet id erat quis, posuere auctor dolor. Nam consectetur nec est sit amet lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sit amet nisi congue, consequat neque vel, porttitor augue. Fusce nulla nisl, venenatis in dolor tincidunt, suscipit fringilla odio.
 

@@ -16,7 +16,7 @@ These getting started samples are perfect for someone just getting into the [Azu
 
 <Description>
 
-## [Device twins](src/device%20twins)
+## [Device twins](src/twins)
 
 <Description>
 
@@ -42,6 +42,5 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 # ➡️Next Steps
 
-- [Send messages to IoT Hub](./src/send%20messages)
 - [How to guides](src/../../how%20to%20guides)
 - [Solutions](src/../../solutions)

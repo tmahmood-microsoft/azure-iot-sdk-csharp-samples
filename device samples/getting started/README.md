@@ -27,9 +27,11 @@ These getting started samples are perfect for someone just getting into the [Azu
 ## [Device provisioning](src/device%20provisioning)
 
 <Description>
+  
 ## [Plug and play](src/plug%20and%20play)
 
 <Description>
+  
 ## [Edge modules](src/edge%20modules)
 
 <Description>

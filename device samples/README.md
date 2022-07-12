@@ -1,4 +1,4 @@
-# Azure IoT SDK C# Samples
+# Azure IoT SDK .NET Samples
 
 A set of easy-to-understand, continuously-tested samples for connecting to Azure IoT Hub.
 
